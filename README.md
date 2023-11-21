@@ -74,18 +74,20 @@
    
    ![image](Screenshots/20.png)
    
+   ![image](Screenshots/21.png)
+   
    **Редактируем конфигурации на клиенте для отправки данных в Signoz**
    
    _Устнаовка приложения согласно инструкции с сайта: https://github.com/SigNoz/sample-nodejs-app/_
    
-   ![image](Screenshots/21.png)
+   ![image](Screenshots/22.png)
 
    **Запускаем клиентское приложение**
    
-   ![image](Screenshots/22.png)
+   ![image](Screenshots/23.png)
    
    **Проверяем получение логов в Signoz**
    
-   ![image](Screenshots/23.png)
-   
    ![image](Screenshots/24.png)
+   
+   ![image](Screenshots/25.png)
