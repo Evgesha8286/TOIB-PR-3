@@ -1,64 +1,68 @@
 # TOIB-PR-3 Pankov Evgeniy Romualdovich BBMO-02-23
-1. Создать 2 виртуальные машины на базе ОС Debian 12
-   ![image](screenshots/1.png)
-2. Обеспечить между ними сетевой обмен
-   ![image](screenshots/2.png)
-3. Включить на 1й из ВМ передачу логов по протоколу rsyslog на 2ю ВМ
+
+1. Создаем 2 виртуальные машины на базе ОС Debian 12
+
+   ![image](Screenshots/1.png)
+   ![image](Screenshots/2.png)
    
-   **Установка и настройка rsyslog**
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/9b6d4f97-ce83-42ef-8a88-355e57efda59)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/7a3ea3dd-0e5b-4980-9e10-9ccf1c4fd4ad)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/4430f5c2-5124-4ff8-96c8-7fed6f354d16)
+2. Обеспечиваем между ними сетевой обмен
+   ![image](Screenshots/3.png)
    
-   **Установка правил на сервер**
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/84eb36fd-2f8d-4d87-a1a6-8e7a42829670)
+3. Включаем на 1й (сервер) из ВМ передачу логов по протоколу rsyslog на 2ю ВМ (клиент)
+   
+   **Устанавливаем и настраиваем rsyslog**
+   ![image](Screenshots/4.png)
+   ![image](Screenshots/5.png)
+   
+   **Устанавливаем правила на сервере**
+   ![image](Screenshots/6.png)
 
    **Установка правил на клиент**
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/e7072668-8d80-480d-a52f-d8e1f1b5279f)
+   ![image](Screenshots/2.png)
 
    **Проверка**
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/078c64d8-b5bf-4d81-9135-4cf5c4d362e8)
+   ![image](Screenshots/2.png)
 
    **Проверка получения логов на сервере**
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/e8d2042e-ad84-4daa-9534-704740ecd1e3)
+   ![image](Screenshots/2.png)
 
-4. Установить и настроить получение логов на сервер с использованием Loki
+6. Установить и настроить получение логов на сервер с использованием Loki
    
  **Установка и редактирование compose-файла на сервере**
- ![image](https://github.com/slavastrybak/TOIB/assets/70744558/c0684f52-fb5d-4213-86a6-29bb4f1fe9f4)
- ![image](https://github.com/slavastrybak/TOIB/assets/70744558/51f265f3-2a5e-4c26-a52f-4a73edb569b9)
+ ![image](Screenshots/2.png)
+ ![image](Screenshots/2.png)
    
  **Запуск Loki**
- ![image](https://github.com/slavastrybak/TOIB/assets/70744558/4d9c572e-eda8-4082-afee-57128b17fca5)
+ ![image](Screenshots/2.png)
 
  **Редактирование promtail на клиенте**
- ![image](https://github.com/slavastrybak/TOIB/assets/70744558/ca09584e-7450-4d01-982f-e3c75f5f3c1f)
+ ![image](Screenshots/2.png)
 
  **Compose-файл для promtail**
- ![image](https://github.com/slavastrybak/TOIB/assets/70744558/28ae2a11-e39c-4869-8368-b711bd6b3f39)
+ ![image](Screenshots/2.png)
 
  **Запуск promtail на клиенте**
- ![image](https://github.com/slavastrybak/TOIB/assets/70744558/e1522f97-0383-4bd8-a6de-417257b35464)
+ ![image](Screenshots/2.png)
 
  **Просмотр логов клиента в Grafana**
- ![image](https://github.com/slavastrybak/TOIB/assets/70744558/47f4db78-80ec-4e29-ba55-a2f0ded90cbc)
+ ![image](Screenshots/2.png)
  
 9. Установить и настроить получение логов на сервер с использованием Signoz
 
    _Установка происходила согласно https://signoz.io/docs/install/docker/#install-signoz-using-docker-compose_
 
    **Запуск Signoz**
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/b76560d6-fadb-4efd-af62-d5dd59b67a89)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/6c072514-c717-4d33-a51e-1016fd09f748)
+   ![image](Screenshots/2.png)
+   ![image](Screenshots/2.png)
 
    **Редактирование конфигурации на клиенте для отправки данных в Signoz**
    
    _Приложение - https://github.com/SigNoz/sample-nodejs-app/_
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/7f1aab46-fecf-4e39-a032-5bd8549186c7)
+   ![image](Screenshots/2.png)
 
    **Запуск клиентского приложения**
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/ff1a30e5-e167-4240-ae1f-e4764d4d9771)
-
+   ![image](Screenshots/2.png)
+   
    **Проверка получения логов в Signoz**
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/67130da5-f924-4146-a4fc-bf5edc38e816)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/258af7a4-eae2-45a1-b1df-08fb6b983aeb)
+   ![image](Screenshots/2.png)
+   ![image](Screenshots/2.png)
