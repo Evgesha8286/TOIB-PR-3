@@ -37,49 +37,55 @@
 
 3. Установить и настроить получение логов на сервер с использованием Loki
    
- **Установливем и редактируем compose-файл на сервере**
+   **Установливем и редактируем compose-файл на сервере**
  
- ![image](Screenshots/11.png)
- ![image](Screenshots/12.png)
+   ![image](Screenshots/11.png)
+   ![image](Screenshots/12.png)
    
- **Запускаем Loki**
+   **Запускаем Loki**
  
- ![image](Screenshots/13.png)
-
- **Редактируем promtail на клиенте**
+   ![image](Screenshots/13.png)
  
- ![image](Screenshots/14.png)
-
- **Редактируем compose-файл для promtail**
+   **Редактируем promtail на клиенте**
  
- ![image](Screenshots/15.png)
+   ![image](Screenshots/14.png)
 
- **Запускаем promtail на клиенте**
+   **Редактируем compose-файл для promtail**
  
- ![image](Screenshots/16.png)
-
- **Просматриваем логи клиента в Grafana**
+   ![image](Screenshots/15.png)
+  
+   **Запускаем promtail на клиенте**
  
- ![image](Screenshots/17.png)
+   ![image](Screenshots/16.png)
 
- ![image](Screenshots/18.png)
+   **Просматриваем логи клиента в Grafana**
  
-9. Установить и настроить получение логов на сервер с использованием Signoz
+   ![image](Screenshots/17.png)
 
-   _Установка происходила согласно https://signoz.io/docs/install/docker/#install-signoz-using-docker-compose_
+   ![image](Screenshots/18.png)
+ 
+ 9. Устанавливаем и настроиваем получение логов на сервере с использованием Signoz
 
-   **Запуск Signoz**
-   ![image](Screenshots/2.png)
-   ![image](Screenshots/2.png)
+   _Установка происходит по инструкции с сайта: https://signoz.io/docs/install/docker/#install-signoz-using-docker-compose_
 
-   **Редактирование конфигурации на клиенте для отправки данных в Signoz**
+   **Запускаем Signoz**
    
-   _Приложение - https://github.com/SigNoz/sample-nodejs-app/_
-   ![image](Screenshots/2.png)
-
-   **Запуск клиентского приложения**
-   ![image](Screenshots/2.png)
+   ![image](Screenshots/18.png)
    
-   **Проверка получения логов в Signoz**
-   ![image](Screenshots/2.png)
-   ![image](Screenshots/2.png)
+   ![image](Screenshots/19.png)
+   
+   **Редактируем конфигурации на клиенте для отправки данных в Signoz**
+   
+   _Устнаовка приложения согласно инструкции с сайта: https://github.com/SigNoz/sample-nodejs-app/_
+   
+   ![image](Screenshots/20.png)
+
+   **Запускаем клиентское приложение**
+   
+   ![image](Screenshots/21.png)
+   
+   **Проверяем получение логов в Signoz**
+   
+   ![image](Screenshots/22.png)
+   
+   ![image](Screenshots/23.png)
