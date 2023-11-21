@@ -25,7 +25,7 @@
    **Устанавливаем правила на сервере**
    ![image](Screenshots/7.png)
 
-   **Установливаем правила на клиент**
+   **Установливаем правила на клиенте**
    
    ![image](Screenshots/8.png)
 
@@ -33,30 +33,30 @@
    
    ![image](Screenshots/9.png)
 
-   **Проверка получения логов на сервере**
+   **Проверяем получения логов на сервере**
    
    ![image](Screenshots/10.png)
 
-4. Установить и настроить получение логов на сервер с использованием Loki
+3. Установить и настроить получение логов на сервер с использованием Loki
    
- **Установка и редактирование compose-файла на сервере**
- ![image](Screenshots/2.png)
- ![image](Screenshots/2.png)
+ **Установливем и редактируем compose-файл на сервере**
+ ![image](Screenshots/11.png)
+ ![image](Screenshots/12.png)
    
- **Запуск Loki**
- ![image](Screenshots/2.png)
+ **Запускаем Loki**
+ ![image](Screenshots/13.png)
 
- **Редактирование promtail на клиенте**
- ![image](Screenshots/2.png)
+ **Редактируем promtail на клиенте**
+ ![image](Screenshots/14.png)
 
- **Compose-файл для promtail**
- ![image](Screenshots/2.png)
+ **Редактируем compose-файл для promtail**
+ ![image](Screenshots/15.png)
 
- **Запуск promtail на клиенте**
- ![image](Screenshots/2.png)
+ **Запускаем promtail на клиенте**
+ ![image](Screenshots/16.png)
 
- **Просмотр логов клиента в Grafana**
- ![image](Screenshots/2.png)
+ **Просматриваем логи клиента в Grafana**
+ ![image](Screenshots/17.png)
  
 9. Установить и настроить получение логов на сервер с использованием Signoz
 
