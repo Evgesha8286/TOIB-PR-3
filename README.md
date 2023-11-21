@@ -16,25 +16,28 @@
 
    **Проверяем работоспособность rsyslogна сервере и клиенте**
 
-    ![image](Screenshots/5.png)
+   ![image](Screenshots/5.png)
 
    **Включаем UDP и TCP соединение**
 
-    ![image](Screenshots/6.png)
+   ![image](Screenshots/6.png)
 
    **Устанавливаем правила на сервере**
    ![image](Screenshots/7.png)
 
    **Установливаем правила на клиент**
+   
    ![image](Screenshots/8.png)
 
    **Проверка**
+   
    ![image](Screenshots/9.png)
 
    **Проверка получения логов на сервере**
+   
    ![image](Screenshots/10.png)
 
-3. Установить и настроить получение логов на сервер с использованием Loki
+4. Установить и настроить получение логов на сервер с использованием Loki
    
  **Установка и редактирование compose-файла на сервере**
  ![image](Screenshots/2.png)
