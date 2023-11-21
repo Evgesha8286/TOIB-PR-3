@@ -3,30 +3,38 @@
 1. Создаем 2 виртуальные машины на базе ОС Debian 12 и обеспечиваем между ними сетевой обмен
 
    ![image](Screenshots/1.png)
+
    ![image](Screenshots/2.png)
+
    ![image](Screenshots/3.png)
    
 2. Включаем на 1й (сервер) из ВМ передачу логов по протоколу rsyslog на 2ю ВМ (клиент)
    
    **Устанавливаем и настраиваем rsyslog на сервере и клиенте**
+
    ![image](Screenshots/4.png)
 
    **Проверяем работоспособность rsyslogна сервере и клиенте**
-   ![image](Screenshots/5.png)
-   
+
+    ![image](Screenshots/5.png)
+
+   **Включаем UDP и TCP соединение**
+
+    ![image](Screenshots/6.png)
+
    **Устанавливаем правила на сервере**
-   ![image](Screenshots/6.png)
+   ![image](Screenshots/7.png)
 
    **Установливаем правила на клиент**
-   ![image](Screenshots/2.png)
+   ![image](Screenshots/8.png)
 
    **Проверка**
-   ![image](Screenshots/2.png)
+   ![image](Screenshots/9.png)
 
    **Проверка получения логов на сервере**
-   ![image](Screenshots/2.png)
+   ![image](Screenshots/10.png)
 
-6. Установить и настроить получение логов на сервер с использованием Loki
+3. Установить и настроить получение логов на сервер с использованием Loki
    
  **Установка и редактирование compose-файла на сервере**
  ![image](Screenshots/2.png)
